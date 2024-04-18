@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Assests/table.png);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw
+}
+
+#game {
+    outline: 2px solid goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 6em;
+    margin: 0px;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 2.2rem;
+    margin: 0px;
+}
+
+#cards-el , #sum-el {
+    margin-top: 25px;
+    font-size: 1.5em;
+}
+
+#butt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    color: #016f32;
+    width: 350px;
+    height: 30px;
+    background-color: goldenrod;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    border-radius: 2px;
+    font-size: 1.2em;
+}
